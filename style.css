@@ -219,3 +219,61 @@ a {
 .player-control-icon:hover {
     opacity: 1;
 }
+
+.playback-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.20rem;
+}
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.album {
+    display: flex;
+
+}
+.album-img {
+    width: 15%;
+    height: 20%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.album-para {
+    padding-left: 1rem;
+    
+    
+}
+.album-p1 {
+    font-weight: 600;
+    
+}
+.album-p2 {
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+.album-icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+.icon-2{
+    margin-left: 1rem;
+}
