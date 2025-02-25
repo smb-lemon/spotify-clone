@@ -9,12 +9,14 @@ body {
 .main {
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 
 }
 .sidebar {
     background-color: black;
     width: 340px;
     border-radius: 1rem;
+    
 }
 .main-content {
     background-color: #121212;
@@ -59,4 +61,31 @@ a {
 .nav-option a {
     font-size: 1rem;
     margin-left: 1rem;
+}
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i:hover {
+    opacity: 1;
 }
